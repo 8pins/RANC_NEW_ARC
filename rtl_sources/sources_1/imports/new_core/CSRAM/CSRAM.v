@@ -26,7 +26,7 @@ module CSRAM #(
     (* ram_style = "block" *) reg [WIDTH-1:0] memory [0:NUM_NEURONS-1];
 
     initial begin
-        $readmemb(FILENAME, memory);
+        $readmemh(FILENAME, memory); // change this from readmemb to readmemh since input data format changed
         data_out <= 0;
     end
     
