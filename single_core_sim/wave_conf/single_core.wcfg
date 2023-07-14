@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_RANCNetworkGrid_1x1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_RANCNetworkGrid_1x1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2234541578fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="216"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="86" />
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /ren_in_west">
+      <obj_property name="ElementShortName">ren_in_west</obj_property>
+      <obj_property name="ObjectShortName">ren_in_west</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /ren_in_east">
+      <obj_property name="ElementShortName">ren_in_east</obj_property>
+      <obj_property name="ObjectShortName">ren_in_east</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /ren_in_north">
+      <obj_property name="ElementShortName">ren_in_north</obj_property>
+      <obj_property name="ObjectShortName">ren_in_north</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /ren_in_south">
+      <obj_property name="ElementShortName">ren_in_south</obj_property>
+      <obj_property name="ObjectShortName">ren_in_south</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /empty_in_west">
+      <obj_property name="ElementShortName">empty_in_west</obj_property>
+      <obj_property name="ObjectShortName">empty_in_west</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /empty_in_east">
+      <obj_property name="ElementShortName">empty_in_east</obj_property>
+      <obj_property name="ObjectShortName">empty_in_east</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /empty_in_north">
+      <obj_property name="ElementShortName">empty_in_north</obj_property>
+      <obj_property name="ObjectShortName">empty_in_north</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /empty_in_south">
+      <obj_property name="ElementShortName">empty_in_south</obj_property>
+      <obj_property name="ObjectShortName">empty_in_south</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /east_in">
+      <obj_property name="ElementShortName">east_in[29:0]</obj_property>
+      <obj_property name="ObjectShortName">east_in[29:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /west_in">
+      <obj_property name="ElementShortName">west_in[29:0]</obj_property>
+      <obj_property name="ObjectShortName">west_in[29:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /north_in">
+      <obj_property name="ElementShortName">north_in[20:0]</obj_property>
+      <obj_property name="ObjectShortName">north_in[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /south_in">
+      <obj_property name="ElementShortName">south_in[20:0]</obj_property>
+      <obj_property name="ObjectShortName">south_in[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /ren_out_west">
+      <obj_property name="ElementShortName">ren_out_west</obj_property>
+      <obj_property name="ObjectShortName">ren_out_west</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /ren_out_east">
+      <obj_property name="ElementShortName">ren_out_east</obj_property>
+      <obj_property name="ObjectShortName">ren_out_east</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /ren_out_north">
+      <obj_property name="ElementShortName">ren_out_north</obj_property>
+      <obj_property name="ObjectShortName">ren_out_north</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /ren_out_south">
+      <obj_property name="ElementShortName">ren_out_south</obj_property>
+      <obj_property name="ObjectShortName">ren_out_south</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /empty_out_west">
+      <obj_property name="ElementShortName">empty_out_west</obj_property>
+      <obj_property name="ObjectShortName">empty_out_west</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /empty_out_east">
+      <obj_property name="ElementShortName">empty_out_east</obj_property>
+      <obj_property name="ObjectShortName">empty_out_east</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /empty_out_north">
+      <obj_property name="ElementShortName">empty_out_north</obj_property>
+      <obj_property name="ObjectShortName">empty_out_north</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /empty_out_south">
+      <obj_property name="ElementShortName">empty_out_south</obj_property>
+      <obj_property name="ObjectShortName">empty_out_south</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /east_out">
+      <obj_property name="ElementShortName">east_out[29:0]</obj_property>
+      <obj_property name="ObjectShortName">east_out[29:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /west_out">
+      <obj_property name="ElementShortName">west_out[29:0]</obj_property>
+      <obj_property name="ObjectShortName">west_out[29:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /north_out">
+      <obj_property name="ElementShortName">north_out[20:0]</obj_property>
+      <obj_property name="ObjectShortName">north_out[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /south_out">
+      <obj_property name="ElementShortName">south_out[20:0]</obj_property>
+      <obj_property name="ObjectShortName">south_out[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /token_controller_error">
+      <obj_property name="ElementShortName">token_controller_error</obj_property>
+      <obj_property name="ObjectShortName">token_controller_error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /scheduler_error">
+      <obj_property name="ElementShortName">scheduler_error</obj_property>
+      <obj_property name="ObjectShortName">scheduler_error</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /axon_spikes">
+      <obj_property name="ElementShortName">axon_spikes[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axon_spikes[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /fifo_out_axon_spikes">
+      <obj_property name="ElementShortName">fifo_out_axon_spikes[11:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_out_axon_spikes[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /axon_spikes_valid">
+      <obj_property name="ElementShortName">axon_spikes_valid</obj_property>
+      <obj_property name="ObjectShortName">axon_spikes_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /core_full">
+      <obj_property name="ElementShortName">core_full</obj_property>
+      <obj_property name="ObjectShortName">core_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_data">
+      <obj_property name="ElementShortName">CSRAM_data[111:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_data[111:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_complete">
+      <obj_property name="ElementShortName">CSRAM_complete</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_complete</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_addr">
+      <obj_property name="ElementShortName">CSRAM_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_write">
+      <obj_property name="ElementShortName">CSRAM_write</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_write</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_set">
+      <obj_property name="ElementShortName">CSRAM_set</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_set</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_init">
+      <obj_property name="ElementShortName">CSRAM_init</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_init</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /router_spike">
+      <obj_property name="ElementShortName">router_spike</obj_property>
+      <obj_property name="ObjectShortName">router_spike</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /neuron_block_en">
+      <obj_property name="ElementShortName">neuron_block_en</obj_property>
+      <obj_property name="ObjectShortName">neuron_block_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /neuron_block_next_neuron">
+      <obj_property name="ElementShortName">neuron_block_next_neuron</obj_property>
+      <obj_property name="ObjectShortName">neuron_block_next_neuron</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /neuron_block_write_current_potential">
+      <obj_property name="ElementShortName">neuron_block_write_current_potential</obj_property>
+      <obj_property name="ObjectShortName">neuron_block_write_current_potential</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /neuron_instruction">
+      <obj_property name="ElementShortName">neuron_instruction[1:0]</obj_property>
+      <obj_property name="ObjectShortName">neuron_instruction[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /neuron_number_data">
+      <obj_property name="ElementShortName">neuron_number_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">neuron_number_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /neuron_number_data_valid">
+      <obj_property name="ElementShortName">neuron_number_data_valid</obj_property>
+      <obj_property name="ObjectShortName">neuron_number_data_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /axon_number_data">
+      <obj_property name="ElementShortName">axon_number_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axon_number_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /decoder_empty">
+      <obj_property name="ElementShortName">decoder_empty</obj_property>
+      <obj_property name="ObjectShortName">decoder_empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /read_spike">
+      <obj_property name="ElementShortName">read_spike</obj_property>
+      <obj_property name="ObjectShortName">read_spike</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /synap_con_done">
+      <obj_property name="ElementShortName">synap_con_done</obj_property>
+      <obj_property name="ObjectShortName">synap_con_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /neuron_potential">
+      <obj_property name="ElementShortName">neuron_potential[8:0]</obj_property>
+      <obj_property name="ObjectShortName">neuron_potential[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /neuron_block_spike">
+      <obj_property name="ElementShortName">neuron_block_spike</obj_property>
+      <obj_property name="ObjectShortName">neuron_block_spike</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /axon_decoder_in">
+      <obj_property name="ElementShortName">axon_decoder_in[11:0]</obj_property>
+      <obj_property name="ObjectShortName">axon_decoder_in[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /axon_decoder_wr_en">
+      <obj_property name="ElementShortName">axon_decoder_wr_en</obj_property>
+      <obj_property name="ObjectShortName">axon_decoder_wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /local_buffers_full">
+      <obj_property name="ElementShortName">local_buffers_full</obj_property>
+      <obj_property name="ObjectShortName">local_buffers_full</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /PACKET_WIDTH">
+      <obj_property name="ElementShortName">PACKET_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PACKET_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /NUM_NEURONS">
+      <obj_property name="ElementShortName">NUM_NEURONS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_NEURONS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /NUM_AXONS">
+      <obj_property name="ElementShortName">NUM_AXONS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_AXONS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /NUM_TICKS">
+      <obj_property name="ElementShortName">NUM_TICKS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_TICKS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /NUM_WEIGHTS">
+      <obj_property name="ElementShortName">NUM_WEIGHTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_WEIGHTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /NUM_RESET_MODES">
+      <obj_property name="ElementShortName">NUM_RESET_MODES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_RESET_MODES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /POTENTIAL_WIDTH">
+      <obj_property name="ElementShortName">POTENTIAL_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">POTENTIAL_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /WEIGHT_WIDTH">
+      <obj_property name="ElementShortName">WEIGHT_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WEIGHT_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /LEAK_WIDTH">
+      <obj_property name="ElementShortName">LEAK_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LEAK_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /THRESHOLD_WIDTH">
+      <obj_property name="ElementShortName">THRESHOLD_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /DX_MSB">
+      <obj_property name="ElementShortName">DX_MSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DX_MSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /DX_LSB">
+      <obj_property name="ElementShortName">DX_LSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DX_LSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /DY_MSB">
+      <obj_property name="ElementShortName">DY_MSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DY_MSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /DY_LSB">
+      <obj_property name="ElementShortName">DY_LSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DY_LSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /ROUTER_BUFFER_DEPTH">
+      <obj_property name="ElementShortName">ROUTER_BUFFER_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ROUTER_BUFFER_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_FILE">
+      <obj_property name="ElementShortName">CSRAM_FILE[599:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_FILE[599:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /TC_FILE">
+      <obj_property name="ElementShortName">TC_FILE[551:0]</obj_property>
+      <obj_property name="ObjectShortName">TC_FILE[551:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /DX_WIDTH">
+      <obj_property name="ElementShortName">DX_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DX_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /DY_WIDTH">
+      <obj_property name="ElementShortName">DY_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DY_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_WIDTH">
+      <obj_property name="ElementShortName">CSRAM_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_SYNAPTIC_CONNECTIONS_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_SYNAPTIC_CONNECTIONS_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_SYNAPTIC_CONNECTIONS_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_CURRENT_POTENTIAL_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_CURRENT_POTENTIAL_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_CURRENT_POTENTIAL_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_RESET_POTENTIAL_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_RESET_POTENTIAL_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_RESET_POTENTIAL_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_WEIGHTS_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_WEIGHTS_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_WEIGHTS_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_LEAK_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_LEAK_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_LEAK_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_THRESHOLD_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_THRESHOLD_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_THRESHOLD_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_FLOOR_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_FLOOR_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_FLOOR_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_RESET_MODE_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_RESET_MODE_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_RESET_MODE_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_DX_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_DX_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_DX_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_DY_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_DY_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_DY_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_AXON_DESTINATION_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_AXON_DESTINATION_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_AXON_DESTINATION_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_RANCNetworkGrid_1x1/uut/\gencore[0].genblk1.Core /CSRAM_SPIKE_DELIVERY_TICK_BOTTOM_INDEX">
+      <obj_property name="ElementShortName">CSRAM_SPIKE_DELIVERY_TICK_BOTTOM_INDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRAM_SPIKE_DELIVERY_TICK_BOTTOM_INDEX[31:0]</obj_property>
+   </wvobject>
+</wave_config>
