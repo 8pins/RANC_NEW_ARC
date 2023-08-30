@@ -14,9 +14,25 @@ Data in other directories are specified for each simulation run.
 
 ## To run the simulation:
 1. Prepare input
-The original RANC core uses 368 bits in CSRAM for each Neuron to store synaptic connections (256 bits), potiential, weights, leaky, ... value (9 bits each, 9 fields), reset mode(1), dx, dy (9ea), axon_destination (8), tick_instance(4). New core separates 256 bits of synaptic connection from the rests in CSRAM.
+   - Initialize CSRAM:
+The original RANC core uses 368 bits in CSRAM for each Neuron to store synaptic connections (256 bits), potential, weights, leaky, ... value (9 bits each, 9 fields), reset mode(1), dx, dy (9ea), axon_destination (8), tick_instance(4). New core separates 256 bits of synaptic connection from the rest in CSRAM.
 
-Initialized data for 
-3. Modify RTL code
+Initialized data for CSRAM is in `mem/neuron_param[].mem` and will be read by `readmem` in Verilog code. For the new core, use `constraints_sources/init_data.tcl` to split data in `mem/neuron_param[x].mem` into 2 files `core_[x]_synap_con.mem` and `hex_new_csram_[xxx].mem`. `hex_new_csram_[xxx].mem` will be read in `rtl_source/new_core/CSRAM/CSRAM.v`.  
+   
+   - Initialize LUTs' parameters:
+LUTs in FPGA will be used to represent synaptic connections, and we need to define their parameters in simulation and synthesis(for emulation) by 2 different ways.
+
+For simulation: 
+Use `neuron_con.sv` and `synap_con.sv` in simulation mode only. Use script `constraints_sources/proc_lut_param.tcl` to convert data in `core_[x]_synap_con.mem` to hex array. Then copy new array to `synap_con.sv`.
+
+For synthesis:
+Use `neuron_con.v` and `synap_con.v` in synthesis and implementation mode only. Use script `constraints_sources/proc_init_luts.tcl` to convert data in `core_[x]_synap_con.mem` to `init_lut.xdc`, this file will be used by `VIVADO` to define LUTs parameter during synthesis step.
+   
+   - other inputs:
+`fifo_init.mem` and `neuron_inst.mem` is used for FIFO SRAM and Core controller Neuron instructions Initialization.
+  
+2. Modify RTL code
+
+
 
 4. Run
