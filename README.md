@@ -1,7 +1,7 @@
 # RANC New Architecture
 Testing new [RANC](https://github.com/UA-RCL/RANC/tree/master) architecture of its CORE.
 
-This project includes 2 simulation runs of 2 RANC Core networks. The first run is `single_core_sim`, which includes a core with new architecture and an output bus, to verify the behavior of the RTL code of all components in the core. The second one is `5cores_MNIST`, which is a 5-core network to classify MNIST pictures of handwritten digits.
+This project includes 2 simulation runs of 2 RANC Core networks. The first run is `single_core_sim` or `1x1`, which includes a core with new architecture and an output bus, to verify the behavior of the RTL code of all components in the core. The second one is `3x2`, which is a 5-core network to classify MNIST pictures of handwritten digits.
 ## Dir structure
 Common data include `.tcl` scripts in `constraint_sources` and Verilog cord in `rtl_source/new_core`.
 
@@ -36,7 +36,7 @@ Use `neuron_con.v` and `synap_con.v` in synthesis and implementation mode only. 
   
 2. Modify RTL code, scripts
 
-   Before running any scripts, please check dir path in all `set` commands, and change to your dir path. If your run `single_core_sim`, change command `set num_core 5` to `1`, and vice versa.
+   Before running any scripts, please check dir path in all `set` commands, and change to your dir path. If your run `1x1`, change command `set num_core 5` to `1`, and vice versa.
 
    For RTL code, change parameters in `new_core.v` or `RANCNetworkGrid.v` to the path to `.mem` file
    
@@ -46,5 +46,5 @@ Before running, create a separate dir for your project. Do not create the projec
    - Create a project.
    - Add `.xdc` files for constraints
    - Add rtl code for design
-   - Add testbench for simulation, `tb_*_1x1.v` for single_core_sim, `tb_*_3x2.v` for the other run.
+   - Add testbench for simulation, `tb_*_1x1.v` for 1x1, `tb_*_3x2.v` for the other run.
    - Changes enable modes for files in `../synaptic_connection` as in (1.)
