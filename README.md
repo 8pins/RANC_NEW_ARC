@@ -1,7 +1,7 @@
 # RANC New Architecture
 Testing new [RANC](https://github.com/UA-RCL/RANC/tree/master) architecture of its CORE.
 
-This project includes 2 simulation runs of 2 RANC Core networks. The first run is `single_core_sim`, which includes a core with new architecture and an output bus, to verify the behavior of the RTL code of all components in the core. The second one is ``, which is a 5-core network to classify MNIST pictures of handwritten digits.
+This project includes 2 simulation runs of 2 RANC Core networks. The first run is `single_core_sim`, which includes a core with new architecture and an output bus, to verify the behavior of the RTL code of all components in the core. The second one is `5cores_MNIST`, which is a 5-core network to classify MNIST pictures of handwritten digits.
 ## Dir structure
 Common data include `.tcl` scripts in `constraint_sources` and Verilog cord in `rtl_source/new_core`.
 
@@ -22,7 +22,7 @@ Initialized data for CSRAM is in `mem/neuron_param[].mem` and will be read by `r
    
 - Initialize LUTs' parameters:
 
-LUTs in FPGA will be used to represent synaptic connections, and we need to define their parameters in simulation and synthesis(for emulation) by 2 different ways.
+LUTs in FPGA will be used to represent synaptic connections, and we need to define their parameters in simulation and synthesis(for emulation) in 2 different ways.
 
 For simulation: 
 Use `neuron_con.sv` and `synap_con.sv` in simulation mode only. Use script `constraints_sources/proc_lut_param.tcl` to convert data in `core_[x]_synap_con.mem` to hex array. Then copy new array to `synap_con.sv`.
@@ -32,7 +32,7 @@ Use `neuron_con.v` and `synap_con.v` in synthesis and implementation mode only. 
    
 - Other inputs:
 
-`fifo_init.mem` and `neuron_inst.mem` is used for FIFO SRAM and Core controller Neuron instructions Initialization.
+`fifo_init.mem` and `neuron_inst.mem` are used for FIFO SRAM and Core controller Neuron instructions Initialization.
   
 2. Modify RTL code, scripts
 
